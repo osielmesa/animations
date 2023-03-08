@@ -6,7 +6,7 @@ import {
   Animated,
 } from 'react-native';
 
-// TranslateX & TranslateY will not cause layout changes.
+// TranslateX & TranslateY will not cause layout changes. you can combine them to move in diagonal
 const Translation = () => {
   const translateAnim = useRef(new Animated.Value(0)).current;
 

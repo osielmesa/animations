@@ -15,7 +15,8 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 // import Opacity from './scr/Opacity';
-import Translation from './scr/Translation';
+// import Translation from './scr/Translation';
+import Scale from './scr/Scale';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -31,7 +32,8 @@ function App(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       {/*<Opacity />*/}
-      <Translation />
+      {/*<Translation />*/}
+      <Scale />
     </SafeAreaView>
   );
 }

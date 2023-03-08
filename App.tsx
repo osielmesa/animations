@@ -14,7 +14,8 @@ import {
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import Opacity from './scr/Opacity';
+// import Opacity from './scr/Opacity';
+import Translation from './scr/Translation';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -29,7 +30,8 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <Opacity />
+      {/*<Opacity />*/}
+      <Translation />
     </SafeAreaView>
   );
 }

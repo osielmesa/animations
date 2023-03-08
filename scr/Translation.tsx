@@ -12,7 +12,7 @@ const Translation = () => {
 
   const startAnimation = () => {
     Animated.timing(translateAnim, {
-      toValue: 300, // Positive values goes down, negative values goes up
+      toValue: 300, // Positive values goes down/right, negative values goes up/left
       duration: 1500,
       useNativeDriver: true,
     }).start(() => {
